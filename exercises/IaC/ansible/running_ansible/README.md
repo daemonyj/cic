@@ -21,7 +21,7 @@ Ansible has lots of features that you will learn about in future exercises. The 
 - Before going any further do the following:
   - `cd YOUR_CLONE_OF_THIS REPO`
   - `source ./bin/env`
-  - `cd /exercises/IaC/ansible/running_ansible`
+  - `cd exercises/IaC/ansible/running_ansible`
   - Run `cic up` to bring up the infrastructure required for this exercise.
 
 **Note:** Running `cic down` at the end of this exercise will shut down the test infrastructure.
@@ -135,7 +135,8 @@ platform linux -- Python 3.7.0, pytest-4.0.0, py-1.7.0, pluggy-0.8.0 -- /root/.p
 cachedir: .pytest_cache
 rootdir: /vols/pytest_4089, inifile: pytest.ini
 plugins: testinfra-1.17.0
-collecting ... collected 3 items                                                              
+collecting ... 
+collected 3 items                                                              
 
 tests/apache_ansible_test.py::test_apache_installed PASSED               [ 33%]
 tests/apache_ansible_test.py::test_apache_is_enabled_as_service PASSED   [ 66%]
